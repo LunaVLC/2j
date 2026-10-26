@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f4f1">
+  <title>iOS 26 Simulator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stage">
+    <section class="phone" aria-label="iPhone simulator">
+      <div class="dynamic-island"></div>
+      <div class="status"><span id="clock">9:41</span><span>●●●  Wi-Fi  ▰</span></div>
+      <div id="screen" class="screen"></div>
+      <div class="home-indicator" id="homeButton" title="กลับหน้า Home"></div>
+    </section>
+    <aside class="side-panel">
+      <div class="panel-head"><div class="brand-mark">◉</div><div><h1>iOS 26 Simulator</h1><p>เว็บจำลอง • ข้อมูลเก็บในเบราว์เซอร์</p></div></div>
+      <div class="panel-card">
+        <h2>โหมดการใช้งาน</h2>
+        <div class="segmented"><button class="active" data-mode="manual">ควบคุมเอง</button><button data-mode="auto">อัตโนมัติ</button></div>
+        <p id="modeHint">แตะไอคอนและปุ่มต่าง ๆ เพื่อใช้งานจำลอง</p>
+        <button class="wide secondary" id="resetDemo">คืนค่าข้อมูลตัวอย่าง</button>
+      </div>
+      <div class="panel-card">
+        <h2>สิ่งที่ทำได้</h2>
+        <ul><li>Home Screen และแอปจำลอง</li><li>Instagram: Feed, Stories, DM, โปรไฟล์, Explore</li><li>Messages, สายโทรเข้า, Notifications</li><li>Music, Photos และ Settings</li><li>บันทึกโพสต์/ข้อความ/การตั้งค่าในเครื่อง</li></ul>
+      </div>
+      <div class="panel-card note"><strong>หมายเหตุ</strong><p>เป็นโปรโตไทป์ฝั่งเว็บ ไม่เชื่อมต่อบริการ Instagram/Apple จริง และไม่สามารถโทรหรือส่งข้อความออกนอกเว็บได้</p></div>
+    </aside>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
